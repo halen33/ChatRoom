@@ -1,0 +1,4 @@
+Welcome you join  to the chat room! Your chat ID is: Client #5
+There is only one int the char room!
+Welcome you join  to the chat room! Your chat ID is: Client #6
+ClientID 6 say to everyone>> hello

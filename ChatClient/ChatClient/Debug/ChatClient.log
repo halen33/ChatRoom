@@ -1,0 +1,44 @@
+﻿生成启动时间为 2019/6/26 星期三 下午 20:18:06。
+     1>项目“D:\My Documents\Visual Studio 2015\Projects\ChatClient\ChatClient\ChatClient.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS_14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /Zp4 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\ChatClient.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\VS_14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /Zp4 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\ChatClient.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ChatClient.cpp ChatClientDlg.cpp DlgChat.cpp TCPMediator.cpp TCPclient.cpp
+         TCPclient.cpp
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\packdef.h(40): warning C4091: “typedef ”: 没有声明变量时忽略“HEART”的左侧
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\tcpclient.cpp(37): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\tcpclient.cpp(111): error C2039: “n”: 不是“IMediator”的成员
+         d:\my documents\visual studio 2015\projects\chatclient\chatclient\imediator.h(4): note: 参见“IMediator”的声明
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\tcpclient.cpp(111): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+         正在生成代码...
+         正在编译...
+         ChatClient.cpp
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\packdef.h(40): warning C4091: “typedef ”: 没有声明变量时忽略“HEART”的左侧
+         正在生成代码...
+         正在编译...
+         TCPMediator.cpp
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\packdef.h(40): warning C4091: “typedef ”: 没有声明变量时忽略“HEART”的左侧
+         DlgChat.cpp
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\packdef.h(40): warning C4091: “typedef ”: 没有声明变量时忽略“HEART”的左侧
+         ChatClientDlg.cpp
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\packdef.h(40): warning C4091: “typedef ”: 没有声明变量时忽略“HEART”的左侧
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\chatclientdlg.cpp(172): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\chatclientdlg.cpp(180): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\chatclientdlg.cpp(205): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\chatclientdlg.cpp(196): warning C4101: “addr”: 未引用的局部变量
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\chatclientdlg.cpp(219): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\chatclientdlg.cpp(239): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>d:\my documents\visual studio 2015\projects\chatclient\chatclient\chatclientdlg.cpp(249): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         正在生成代码...
+     1>已完成生成项目“D:\My Documents\Visual Studio 2015\Projects\ChatClient\ChatClient\ChatClient.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:37.05
